@@ -1,0 +1,63 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+/* the styles for the header */
+header img {
+	float: left;
+}
+header h2{
+	color: #800000;
+	font-size: 170%;
+	text-indent: 30px;
+
+}
+/* header h3 style */
+header h3{
+	color: #800000;
+	font-size: 130%;
+	text-indent: 30px;
+	font-style: italic;
+
+}
+/* Style rule for the "shadow" class */
+.shadow {
+    text-shadow: 2px 2px #800000;
+  }
+
+/* the styles for the main content */
+main {
+	clear: left;
+}
+main h1 {
+	font-size: 150%;
+}
+main h2 {
+	color: var(--global-color-1);
+	font-size: 130%;
+}
+main h3 {
+	font-size: 105%;
+}
+
+a:focus {
+	font-style: italic;
+}
+
+/* the styles for the footer */
+footer p{
+	text-align: center;
+}
+
+:root {
+	--global-color-1: #800000;
+  }
+  .my-element {
+	background-color: var(--global-color-1);
+  }
+
+  a:hover{
+	font-style: italic;
+  }
